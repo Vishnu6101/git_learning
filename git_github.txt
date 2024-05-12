@@ -1,0 +1,20 @@
+create a new repository in the github
+
+link remote repo with local repo (origin is conventional name)
+git remote add origin <repo link>
+
+git remote, git remote -v - view remote repository
+
+git remote remove <name> - remove remote repository
+
+upload to remote repository
+git push origin <branch name>
+
+git push --set-upstream origin master - next time git push can be used to make push
+
+we can only push one branch at a time to a remote repository
+
+git push only pushes commits and not changes which are in the staging / working area
+
+If we overwrite a local commit, then the remote commit will automatically gets branched.
+push will fail. To overwrite it in remote use git push origin master -f
