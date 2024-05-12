@@ -1,0 +1,11 @@
+git init - Initialize a git repo
+
+git add . - add all the files to track
+
+git status - check the status of the file which are being tracked
+
+git log - view all commits
+
+git commit -m "first commit" - make a commit
+
+git branch - view all branches
