@@ -1,0 +1,11 @@
+git branch <branch name> - create a new branch
+
+git branch - view all branches
+
+git checkout <branch name> - switch to that branch
+
+Merging merges the current working branch with another branch
+git checkout master
+git merge branching_demo -m "merged branches"
+
+merge will create a new commit
