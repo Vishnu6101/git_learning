@@ -18,3 +18,9 @@ git push only pushes commits and not changes which are in the staging / working 
 
 If we overwrite a local commit, then the remote commit will automatically gets branched.
 push will fail. To overwrite it in remote use git push origin master -f
+
+downloading from github
+git fetch - fetch the changes from remote repository
+git pull origin master - sync with new commits in local repository
+
+git pull origin master --set-upstream - next time use git pull
