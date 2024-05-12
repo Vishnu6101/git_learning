@@ -9,3 +9,5 @@ git checkout master
 git merge branching_demo -m "merged branches"
 
 merge will create a new commit
+
+If there is a merge conflict then resolve it manually and then create a commit to complete the merge.
