@@ -11,3 +11,11 @@ git merge branching_demo -m "merged branches"
 merge will create a new commit
 
 If there is a merge conflict then resolve it manually and then create a commit to complete the merge.
+
+git branch -D <branch name> - delete a branch
+
+feature branch workflow - most organizations workflow
+    1. create a branch
+    2. push it to github
+    3. create a pull request - code review takes place
+    4. merge happens on github
