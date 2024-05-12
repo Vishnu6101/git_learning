@@ -1,3 +1,11 @@
+staging area - files that are being tracked and modified are in the staging area
+git add . is used and files are modified
+
+working area - files that are not being tracked are in working area
+git add is not used on those files
+
+A file can be in both working area and staging area based on whether git add is used or not
+
 git init - Initialize a git repo
 
 git add . - add all the files to track
@@ -9,3 +17,7 @@ git log - view all commits
 git commit -m "first commit" - make a commit
 
 git branch - view all branches
+
+git reset <filename> - unstage the file (opposite to git add) but changes will be there the file will move to working area from staging area
+
+git checkout <commit hash> - view previous version of code
