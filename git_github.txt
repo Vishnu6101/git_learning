@@ -24,3 +24,5 @@ git fetch - fetch the changes from remote repository
 git pull origin master - sync with new commits in local repository
 
 git pull origin master --set-upstream - next time use git pull
+
+Branching added
