@@ -1,0 +1,5 @@
+git branch <branch name> - create a new branch
+
+git branch - view all branches
+
+git checkout <branch name> - switch to that branch
